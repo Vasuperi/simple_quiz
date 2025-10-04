@@ -20,7 +20,7 @@ if sysname == 'nt':
 else:
     screensize = (800,600)
 
-class MyApp(App):
+class QuizApp(App):
     
     soundfile = None
     button_porp = "create"
@@ -255,4 +255,4 @@ class MyApp(App):
         self.ellipse.size = instance.size   
 
 if __name__ == "__main__":
-    MyApp().run()
+    QuizApp().run()
