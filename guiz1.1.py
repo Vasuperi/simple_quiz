@@ -49,7 +49,7 @@ class QuizApp(App):
 
         # Верхняя треть экрана — текстовый элемент
         self.text_widget = Label(
-            text="[b]Привет, мир![/b]",markup = True,
+            text="[b]Начнёмс![/b]",markup = True,
             size_hint=(1, 1 / 3),
             pos_hint={"top": 1 , 'left':0.8}                     
         )
